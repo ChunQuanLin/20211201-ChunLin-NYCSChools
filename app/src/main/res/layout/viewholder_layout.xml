@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="@dimen/container_horizontal_margin"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/viewholder_drawable"
+    android:layout_margin="@dimen/container_horizontal_margin">
+
+    <TextView
+        android:textSize="@dimen/title_textsize"
+        android:textIsSelectable="true"
+        android:id="@+id/school_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/school_info">
+        <TextView
+            android:textSize="@dimen/body_textsize"
+            android:clickable="true"
+            android:id="@+id/school_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textColor="?android:attr/textColorLink"/>
+        <TextView
+            android:textSize="@dimen/body_textsize"
+            android:id="@+id/school_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textColor="?android:attr/textColorLink" />
+        <TextView
+            android:textSize="@dimen/body_textsize"
+            android:id="@+id/school_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textColor="?android:attr/textColorLink" />
+        <TextView
+            android:textSize="@dimen/body_textsize"
+            android:id="@+id/school_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textColor="?android:attr/textColorLink" />
+        <TextView
+            android:textSize="@dimen/body_textsize"
+            android:textIsSelectable="true"
+            android:id="@+id/school_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+        <TextView
+            android:textSize="@dimen/body_textsize"
+            android:textIsSelectable="true"
+            android:id="@+id/sat_read_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+        <TextView
+            android:textSize="@dimen/body_textsize"
+            android:textIsSelectable="true"
+            android:id="@+id/sat_math_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+        <TextView
+            android:textSize="@dimen/body_textsize"
+            android:textIsSelectable="true"
+            android:id="@+id/sat_write_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+    </LinearLayout>
+</LinearLayout>

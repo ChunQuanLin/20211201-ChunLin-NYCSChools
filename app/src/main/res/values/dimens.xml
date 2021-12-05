@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="landscape_margin">64dp</dimen>
+    <dimen name="container_horizontal_margin">16dp</dimen>
+    <dimen name="title_textsize">32sp</dimen>
+    <dimen name="body_textsize">16sp</dimen>
+</resources>
